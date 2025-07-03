@@ -2,7 +2,7 @@
 
 This library provides modular implementations of machine unlearning techniques for time-series data. It is designed for use in research, evaluation, and deployment scenarios where data privacy and the right to be forgotten are important.
 
-## 📦 Features
+##  Features
 
 - Support for **Exact Retraining**, **SISA**, and **Knowledge Distillation** as unlearning strategies
 - LSTM-based model architecture for building energy consumption prediction
@@ -12,7 +12,7 @@ This library provides modular implementations of machine unlearning techniques f
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── data_utils.py         # Data loading, preprocessing, and forget set selection
@@ -26,7 +26,7 @@ This library provides modular implementations of machine unlearning techniques f
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Installation
 
@@ -58,7 +58,7 @@ results = run_sisa_unlearning(X, y, df, input_cols, target_col, id_col, forget_i
 
 ---
 
-## 🧠 Public API Overview
+##  Public API Overview
 
 ### `load_dataset(filepath: str) -> pd.DataFrame`
 Loads a dataset from CSV.
@@ -83,7 +83,7 @@ Computes RMSE, MAE, and R² metrics on a test or validation loader.
 
 ---
 
-## 📊 Output
+##  Output
 
 Each `run_*` method returns:
 - Trained model or model dictionary
@@ -92,7 +92,7 @@ Each `run_*` method returns:
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Forget set is defined using user-specified `id_column` and list of IDs
 - Can be extended with new models or additional unlearning methods
@@ -100,6 +100,6 @@ Each `run_*` method returns:
 
 ---
 
-## 📃 License
+##  License
 
 No License specified.
