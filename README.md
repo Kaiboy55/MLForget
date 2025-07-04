@@ -36,6 +36,10 @@ Clone the repository and make sure dependencies are installed:
 pip install torch pandas scikit-learn
 ```
 
+Then install the package:
+```bash
+pip install mlforget
+```
 ---
 
 ### Example Usage
